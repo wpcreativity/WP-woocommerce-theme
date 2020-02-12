@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700,800" rel="stylesheet">
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="topArea">
+            <a href="#" class="logo">
+                <img src="images/logo.png">
+            </a>
+        </div>
+
+        <div class="header" id="myHeader">
+          <nav class="navbar navbar-expand-lg justify-content-center">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <!--<li class="nav-item DropDown">
+                    <a class="nav-link" href="#">More</a>
+                    <div class="dropdown-list">
+                        <ul>
+                            <li><a href="#">PROJECTS</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">TERMS OF USE</a></li>
+                        </ul>
+                    </div>
+                </li>-->
+                <li class="nav-item DropDown">
+                    <a class="nav-link" href="cart.html">Cart ( 2 )</a>
+                    <div class="dropdown-list">
+                        <ul class="cart_list">
+                            <li>
+                                <figure>
+                                    <a href="#"><img src="images/product3.png"></a>
+                                </figure>
+                                <div class="prodInfo">
+                                    <p class="price"><span>1</span> X<span> $99</span></p>
+                                    <h3>Product Name</h3>
+                                    <p>Quantity: <span>1</span></p>
+                                </div>              
+                                <a href="#" class="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></a>   
+                            </li>
+                            <li>
+                                <figure>
+                                    <a href="#"><img src="images/product5.jpg"></a>
+                                </figure>
+                                <div class="prodInfo">
+                                    <p class="price"><span>1</span> X<span> $99</span></p>
+                                    <h3>Product Name</h3>
+                                    <p>Quantity: <span>1</span></p>
+                                </div>              
+                                <a href="#" class="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></a>   
+                            </li>
+                        </ul>
+                        <div class="checkoutArea">
+                            <p>Subtotal: <span>$198</span></p>
+                            <a href="checkout.html" class="checkout_btn">Checkout</a>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </li>
+              </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section>
+        <div class="cartArea">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 offset-sm-1">
+                        <div class="cartHead">
+                            <p>Secure Checkout</p>
+                            <ul>
+                                <li>We accept: </li>
+                                <li><img src="images/visa.svg"></li>
+                                <li><img src="images/mastercard.svg"></li>
+                                <li><img src="images/amex.svg"></li>
+                                <li><img src="images/discover.svg"></li>
+                                <li><img src="images/paypal.png"></li>
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                    </div>  
+                    
+                    <div class="col-sm-5 offset-sm-1">
+                        <div class="orderDetails">
+                            <form>
+                                <div id="accordion">
+                                    <div class="card">
+                                      <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                            <h1 class="orderTitle">Your Details</h1>
+                                        </a>
+                                      </div>
+                                      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <div class="form-group">
+                                                <label>Email Address</label>
+                                                <input type="email" class="form-control">
+                                            </div>
+                                            
+                                            <h1 class="orderTitle">Shipping information</h1>
+                                            <div class="row">
+                                                <div class="form-group col-sm-6">
+                                                    <label>First Name</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <div class="form-group col-sm-6">
+                                                    <label>Last Name</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <label>Address</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <label>City</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="form-group col-sm-8">
+                                                    <label>Region</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <div class="form-group col-sm-4">
+                                                    <label>Zip Code</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <label>Country</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <label>Phone Number <span>For delivery purpose only</span></label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <button>Next</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <div class="card-header">
+                                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                            <h1 class="orderTitle">Shipping Method</h1>
+                                        </a>
+                                      </div>
+                                      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <div class="form-group">
+                                                <label class="radioBox">DHL Express WorldWide
+                                                    <input type="radio" name="delivery" checked="checked">
+                                                    <span class="radioMark"></span>
+                                                </label>
+                                                <label class="radioBox">Bluedart Courier
+                                                    <input type="radio" name="delivery">
+                                                    <span class="radioMark"></span>
+                                                </label>
+                                            </div>
+                                            <button>Next</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <div class="card-header">
+                                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                                            <h1 class="orderTitle">Payment Information</h1>
+                                        </a>
+                                      </div>
+                                      <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <div class="form-group">
+                                                <label class="radioBox">Credit / Debit Card
+                                                    <input type="radio" name="delivery" checked="checked">
+                                                    <span class="radioMark"></span>
+                                                </label>
+                                                <label class="radioBox">Paypal
+                                                    <input type="radio" name="delivery">
+                                                    <span class="radioMark"></span>
+                                                </label>
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <label>Card Number</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="form-group col-sm-6">
+                                                    <label>Expiration</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <div class="form-group col-sm-6">
+                                                    <label>CVV</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <label>Zip Code</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <button type="submit">Confirm</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </form>    
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-5">
+                        <div class="orderSummary">
+                            <h3 class="title">Order Summary</h3>
+                            <ul class="cartDetails">
+                                <li>
+                                    <figure>
+                                        <img src="images/product5.jpg">  
+                                    </figure>
+                                    <h4>$198</h4>
+                                    <h3>Product Name</h3>
+                                    <p>Qty: <span>2</span></p>
+                                </li>
+                                
+                                <li>
+                                    <figure>
+                                        <img src="images/product3.png">  
+                                    </figure>
+                                    <h4>$198</h4>
+                                    <h3>Product Name</h3>
+                                    <p>Qty: <span>2</span></p>
+                                </li>
+                            </ul>
+                            
+                            <div class="pricingInfo">
+                                <ul>
+                                    <li>Subtotal<span>$300</span></li>
+                                    <li>Shipping<span>--</span></li>
+                                    <li>Taxes<span>$20.00</span></li>
+                                </ul>
+                                <p>Order Total <span>$320</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-10 offset-1">
+                        <div class="bottomArea">
+                            <h3>Helpful Information</h3>
+                            <ul>
+                                <li><a href="#">Return Policy</a></li>
+                                <li><a href="#">Shipping Info</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footerArea">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <figure>
+                            <img src="images/logo-light.png">
+                        </figure>
+                        <ul class="social_list">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Pinterest</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                        <p class="copyrights">Copyright ©2019 All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+    </script>
+    
+    <script src="js/owl.carousel.js "></script>
+    <script>
+        $(document).ready(function() {
+            $("#carousel").owlCarousel({
+                margin: 0,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                smartSpeed: 1000,
+                navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 2
+                    }
+                }
+            });
+        });
+    </script>
+    <script src='js/jquery.zoom.js'></script>
+	<script>
+		$(document).ready(function(){
+			$('#ex1').zoom();
+		});
+	</script>
+
+</body>
+</html>

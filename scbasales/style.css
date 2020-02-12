@@ -1,0 +1,1057 @@
+/*
+Theme Name: SCBA Sales
+Theme URI: scbasalesco.com
+Author: Prashant Kansal
+Author URI: https://prashantkansal.com/
+Description: Kim has been in the Fire Fighting and Petrochemical industry and has owned  6 successful companies over the past 25 years.  Canstar International, Utah – Ace Security Laminates and Dalmatian Fire Equipment to name a few.  Kim acquired SCBA Sales & Rentals Co in 2012 and has made it his priority to provide a large variety of breathing air equipment and PPE at affordable prices.
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: scbasales
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.Product figcaption a.Compare {
+    bottom: 0px !important;
+}
+.Product figcaption a.Compare:hover {
+    background: #000;
+    color:#fff  !important;
+}
+.ShopArea .ShopProduct .ShopProductHead h2 span {
+    float: initial;
+}
+.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images {
+    width: 100%;
+}
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop .quantity input {
+    border: 1px solid #ddd;
+    padding: 8px 10px 8px 20px;
+    width: 90px;
+    border-radius: 4px;
+    color: #000;
+    font-weight: 600;
+    margin: 0 20px 0px 0;
+    display: inline-block;
+    outline: 0;
+}
+button.single_add_to_cart_button.button.alt {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    font-size: 13px;
+    border-radius: 30px;
+}
+button.single_add_to_cart_button.button.alt:hover {
+background-color: #af1d20;
+    color: #fff;}
+.archive-pagination li.pagination-next a,.archive-pagination li.pagination-previous a{
+    visibility:hidden;
+    padding:0;
+    line-height:0;
+    width:36px;
+}
+.archive-pagination li.pagination-next a:after{
+    content:"?";
+    visibility:visible;
+    padding:0.5em;
+    font-size: 1em;
+    line-height:1em;
+    display:block;
+    border: 1px solid #dfdbdf;
+}
+
+/* *************************** Product Description Pages CSS ***************************** */
+
+.DescriptionArea {}
+
+.DescriptionArea .DescriptionHead {
+    background-color: #f5f5f5;
+    padding: 20px 20px;
+}
+
+.DescriptionArea .DescriptionHead ul {
+    margin: 0 0 0px;
+}
+
+.DescriptionArea .DescriptionHead ul li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    position: relative;
+}
+
+.DescriptionArea .DescriptionHead ul li+li:before {
+    position: absolute;
+    top: 2px;
+    left: -15px;
+    text-align: center;
+    font-family: 'FontAwesome';
+    content: '\f101';
+    color: #6f6f6f;
+    font-size: 17px;
+    line-height: 15px;
+}
+
+.DescriptionArea .DescriptionHead ul li a {
+    color: #272727;
+    font-size: 14px;
+}
+
+.DescriptionArea .DescriptionHead ul li a .fa {
+    margin: 0 5px 0 0
+}
+
+.DescriptionArea .DescriptionHead ul li a:hover,
+.DescriptionArea .DescriptionHead ul li.active a {
+    color: #c41c22;
+}
+
+.DescriptionArea .DescriptionBody {
+    padding: 0 0px 40px;
+}
+
+.DescriptionArea .DescriptionBody .DetailsLeft{
+    text-align: center;
+    box-shadow: 0px 1px 3px #e2e2e2;
+    border: 1px solid #eaeaea;
+}
+.DescriptionArea .DescriptionBody .DetailsLeft img{    
+    width: 70%;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight {}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop {}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop h1 {
+    font-family: Roboto;
+    margin: 0 0 15px;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop h6 {
+    margin: 0 0 10px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop h6 span {
+    font-weight: 500;
+    font-size: 12px;
+    position: relative;
+    color: #ffffff;
+    background-color: #000;
+    height: 20px;
+    display: inline-block;
+    width: 48px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 21px;
+    margin: 0 5px 0 0;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop h6 a {
+    color: #636060;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #c41c22;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop ul {
+    margin: 0 0 15px;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop ul li {
+    float: left;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop ul li:first-child {
+    width: 70px;
+    position: relative;
+    padding: 3px 0;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop ul li:first-child:after {
+    content: ':';
+    position: absolute;
+    right: 8px;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop ul li span {
+    width: 25px;
+    height: 25px;
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 8px;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop ul li a {
+    margin: 0 6px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop ul li a:hover {}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 20px;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop .Quantity {
+    margin: 0 0 30px;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop .Quantity span {
+    width: 100px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop .Quantity input {
+    border: 1px solid #ddd;
+    padding: 8px 10px 8px 20px;
+    width: 90px;
+    border-radius: 4px;
+    color: #000;
+    font-weight: 600;
+    margin: 0 20px 0px 0;
+    display: inline-block;
+    outline: 0;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop .Quantity a {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    font-size: 13px;
+    border-radius: 30px;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightTop .Quantity a:hover {
+    background-color: #c41c22;
+    color: #fff;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightDown {
+    border-top: 1px solid #ddd;
+    padding: 15px 0 0 0;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightDown p {}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightDown p span {
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightDown p a {
+    color: #4e4e4e;
+    font-size: 13.5px;
+    font-weight: 500;
+}
+
+.DescriptionArea .DescriptionBody .DetailsRight .DetailsRightDown p a:hover {
+    color: #c41c22;
+}
+
+.DescriptionArea .DescriptionFooter {
+    background-color: #f9f7f7;
+    padding: 50px 0;
+}
+
+.DescriptionArea .DescriptionFooter ul.nav-tabs {
+    text-align: center;
+    border: none;
+    margin: 0 0 30px;
+}
+
+.DescriptionArea .DescriptionFooter ul.nav-tabs li {
+    float: none;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.DescriptionArea .DescriptionFooter ul.nav-tabs li a {
+    margin: 0;
+    border: none;
+    font-size: 17px;
+    color: #5d5d5d;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 0 0px 7px;
+    background-color: transparent;
+    position: relative;
+}
+
+.DescriptionArea .DescriptionFooter ul.nav-tabs li a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background: #000;
+}
+
+.DescriptionArea .DescriptionFooter ul.nav-tabs li.active {}
+
+.DescriptionArea .DescriptionFooter ul.nav-tabs li.active a {
+    color: #000;
+    background-color: transparent;
+}
+
+.DescriptionArea .DescriptionFooter ul.nav-tabs li.active a:after {
+    width: 100%;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content {}
+
+.DescriptionArea .DescriptionFooter .tab-content .Description {}
+
+.DescriptionArea .DescriptionFooter .tab-content .Description h3 {
+    font-size: 20px;
+    color: #000;
+    margin: 0 0 20px;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Description p {
+    font-size: 14.5px;
+    line-height: 25px;
+    color: #000;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review {}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review h3 {
+    font-size: 20px;
+    color: #000;
+    margin: 0 0 20px;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review .ReviewLeft {}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review .ReviewLeft ul {
+    margin: 0;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review .ReviewLeft ul li {
+    position: relative;
+    padding: 0 0 20px 80px;
+    border-bottom: 1px solid #d4d4d4;
+    margin: 0 0 15px 0;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review .ReviewLeft ul li:last-child {
+    margin: 0px;
+    border: none;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review .ReviewLeft ul li figure {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review .ReviewLeft ul li figure img {}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review .ReviewLeft ul li span.Rating {
+    float: right;
+    color: #c41c22;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review .ReviewLeft ul li h4 {
+    margin: 0 0 7px;
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review .ReviewLeft ul li h4 span {
+    color: #3a3a3a;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review .ReviewLeft ul li p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review form {
+    position: relative;
+    padding: 0 0 0 10px;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review form:before {
+    content: '';
+    width: 1px;
+    background-color: #afafaf;
+    position: absolute;
+    left: -7px;
+    height: 410px;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review form p {
+    margin: 0 0 20px;
+    font-size: 15px;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review form .form-group {
+    margin: 0 0 20px;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review form .form-group label {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .Review form .form-group .form-control {
+    width: 100%;
+    background-color: #efefef;
+    border: none;
+    box-shadow: none;
+    height: 115%;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .ShippingBoy {
+    padding: 0 0 1px 265px;
+    position: relative;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .ShippingBoy figure {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.DescriptionArea .DescriptionFooter .tab-content .ShippingBoy figure img {}
+
+.DescriptionArea .DescriptionFooter .tab-content .ShippingBoy p {
+    font-size: 14.5px;
+    line-height: 25px;
+    color: #000;
+}
+
+
+/* ************************ About Us ********************** */
+
+.BannerArea{
+    text-align: center;
+    padding: 80px 40px;
+    background-color: #0a0a0a; 
+}
+
+.BannerArea h1{
+    font-family: 'Merriweather';
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 600;
+    margin: 0 0 6px;
+}
+
+.BannerArea h1:after{
+    content: '';
+}
+
+.BannerArea ul{}
+
+.BannerArea ul li{
+    position: relative;
+    display: inline-block;
+}
+
+.BannerArea ul li+li:after {
+    content: '/';
+    position: absolute;
+    left: -3px;
+    font-size: 12px;
+    top: 2px;
+    color: #fff;
+}
+
+.BannerArea ul li a{
+    color: #a5a5a5;
+    font-weight: 400;
+    font-family: poppins;
+    font-size: 15px;
+    padding: 0 14px;
+    position: relative;
+}
+
+.BannerArea ul li.active a,
+.BannerArea ul li a:hover{
+    color: #fff;
+}
+
+
+.AboutArea{
+    padding: 50px 0;
+}
+
+.AboutArea figure{
+    float: right;
+    width: 265px;
+    margin: 0px 15px 15px 15px;
+    box-shadow: 0px 4px 9px #b1aeae;
+}
+
+.AboutArea figure img{
+    width: 100%;
+}
+
+.AboutArea h3{
+    color: #000;
+    font-size: 23px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    font-weight: 600;
+    margin: 0 0 15px;
+    position: relative;
+    padding: 0 0 7px;
+}
+
+.AboutArea h3:after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 140px;
+    height: 2px;
+    background-color: #000;
+}
+
+.AboutArea p{
+    font-size: 15px;
+    line-height: 26px;
+    color: #000;
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+
+
+.ContactArea{
+    padding: 50px 0;
+}
+
+.ContactArea .ContactLeft{}
+
+.ContactArea .ContactLeft h3{
+    margin: 0 0 20px;
+    font-size: 35px;
+    color: #000;
+    padding: 0 0 10px;
+    position: relative;
+    font-weight: 700;
+}
+
+.ContactArea .ContactLeft p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0;
+    margin: 0 0 30px;
+    font-family: Roboto;
+}
+
+
+.ContactArea .ContactLeft ul{
+    background-color: #fbfbfb;
+    padding: 20px;
+    margin: 0;
+    font-family: poppins;
+}
+
+.ContactArea .ContactLeft ul h5{
+    margin: 0px 0 15px;
+    font-family: poppins;
+    font-size: 27px;
+    color: #000;
+    font-weight: 600;
+}
+
+.ContactArea .ContactLeft ul li{
+    padding: 0 0 0 33px;
+    position: relative;
+    font-size: 15px;
+    margin: 0 0 15px;
+    color: #000;
+    line-height: 26px;
+}
+
+.ContactArea .ContactLeft ul li span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 19px;
+    color: #000;
+    width: 23px;
+}
+
+.ContactArea .ContactLeft ul li a{
+    color: #227bc1;
+}
+
+.ContactArea .ContactLeft ul li a:hover{
+    color: #000;
+}
+
+.ContactArea .ContactLeft ul li:last-child{
+    margin: 0px;
+}
+
+.ContactArea .ContactRight{background-color: #fbfbfb;padding: 25px 35px;font-family: Roboto;}
+
+.ContactArea .ContactRight h3{
+    margin: 0 0 8px -10px;
+    font-size: 28px;
+    color: #000;
+    position: relative;
+    font-weight: 600;
+}
+
+.ContactArea .ContactRight h4{
+    font-weight: 500;
+    font-family: Roboto;
+    color: #000;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0 0 15px -10px;
+}
+
+.ContactArea .ContactRight form{}
+
+.ContactArea .ContactRight form .form-group{
+    margin: 0 0 20px 0;
+    padding: 0 5px;
+}
+
+.ContactArea .ContactRight form .form-group label{
+    font-weight: 500;
+    font-family: Roboto;
+    color: #000;
+}
+
+.ContactArea .ContactRight form .form-group label.radio-inline{
+    width: 70px;
+}
+
+.ContactArea .ContactRight form .form-group .form-control{
+    border: 1px solid #ddd;
+    box-shadow: none;
+    border-radius: 4px;
+    height: 37px;
+}
+
+.ContactArea .ContactRight form .form-group textarea.form-control{
+    height: auto;
+}
+
+.ContactArea .ContactRight form .form-group p{
+    font-weight: 500;
+    font-family: poppins;
+    color: #000;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.ContactArea .ContactRight form button{
+    border: 2px solid #000;
+    padding: 9px 40px;
+    background-color: transparent;
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.ContactArea .ContactRight form button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.MapArea{
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+
+.MapArea .Map{
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px #ddd;
+}
+
+.MapArea .Map h3{
+    margin: 0px 0 5px 0;
+    font-family: Roboto;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.MapArea .Map p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 12px;
+}
+
+.MapArea .Map iframe{
+    width: 100%;
+    border: none;
+    height: 300px;
+    margin: 0 0 -5px 0;
+    box-sizing: border-box;
+}
+
+#contactButton{
+    border: 2px solid #000;
+    padding: 9px 40px;
+    background-color: transparent;
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.FinancingArea{
+    padding: 50px 0;
+}
+
+.FinancingArea figure{
+    float: right;
+    width: 265px;
+    margin: 0px 15px 15px 15px;
+    box-shadow: 0px 4px 9px #b1aeae;
+}
+
+.FinancingArea figure img{
+    width: 100%;
+}
+
+.FinancingArea h4{
+    margin: 0 0 36px;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.FinancingArea h4 a{
+    color: #c41c22;
+    position: relative;
+}
+
+.FinancingArea h4 a:before{
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 208px;
+    height: 1px;
+    background-color: #000;
+}
+
+.FinancingArea h4 a:after{
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background-color: #c41c22;
+    transition: 0.5s all ease-in-out;
+}
+
+.FinancingArea h4 a:hover:after{ 
+    width: 208px; 
+    transition: 0.5s all ease-in-out;
+}
+
+.FinancingArea h4 a:hover{}
+
+.FinancingArea .FinancingInner{
+    margin: 0 0 30px;
+}
+
+.FinancingArea .FinancingInner:last-child{
+    margin: 0 0 0px;
+}
+
+.FinancingArea .FinancingInner h3{
+    color: #000;
+    font-size: 23px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    font-weight: 600;
+    margin: 0 0 15px;
+    position: relative;
+    padding: 0 0 7px;
+}
+
+.FinancingArea .FinancingInner h3:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 140px;
+    height: 2px;
+    background-color: #000;
+}
+
+.FinancingArea .FinancingInner p{
+    font-size: 15px;
+    line-height: 26px;
+    color: #000;
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+
+.FinancingArea .FinancingInner p:last-child{
+    margin: 0px;
+}
+
+.FinancingArea address{
+    box-shadow: 0px 0px 10px #ddd;
+    padding: 35px;
+    width: 40%;
+    margin: 0;
+}
+
+.FinancingArea address h3{
+    color: #000;
+    font-size: 23px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    font-weight: 600;
+    margin: 0 0 15px;
+    position: relative;
+    padding: 0 0 7px;
+}
+
+.FinancingArea address h3:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 140px;
+    height: 2px;
+    background-color: #000;
+}
+
+.FinancingArea address p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    margin: 0 0 8px;
+    font-weight: 500;
+}
+
+.FinancingArea address a{
+    font-size: 18px;
+    line-height: 24px;
+    color: #c41c22;
+    margin: 0 0 8px;
+    font-weight: 500;
+}
+
+.FinancingArea address a:hover{
+    color: #000;
+}
+
+.EquipmentArea{
+    padding: 70px 0;
+    background-color: #fbfbfb;
+}
+
+.EquipmentArea .EquipmentForm{
+    width: 70%;
+    margin: auto;
+}
+
+.EquipmentArea .EquipmentForm h2{
+    margin: 0 0 8px;
+    font-size: 23px;
+    color: #000;
+    font-weight: 600;
+}
+
+.EquipmentArea .EquipmentForm h3{
+    margin: 0 0 30px;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.EquipmentArea .EquipmentForm h3 a{
+    color: #c41c22;
+    position: relative;
+}
+
+.EquipmentArea .EquipmentForm h3 a:before{
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+
+.EquipmentArea .EquipmentForm h3 a:after{
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background-color: #c41c22;
+    transition: 0.5s all ease-in-out;
+}
+
+.EquipmentArea .EquipmentForm h3 a:hover:after{ 
+    width: 100%; 
+    transition: 0.5s all ease-in-out;
+}
+
+.EquipmentArea .EquipmentForm h3 a:hover{
+    color: #000;
+}
+
+
+.EquipmentArea .EquipmentForm form{
+    background-color: #ffffff;
+    padding: 25px 35px;
+    font-family: Roboto;
+    box-shadow: 0px 4px 14px #ddd;
+}
+
+.EquipmentArea .EquipmentForm form h4{
+    margin: 0 0 8px -8px;
+    font-size: 28px;
+    color: #000;
+    position: relative;
+    font-weight: 600;
+}
+
+.EquipmentArea .EquipmentForm form h5{
+    font-weight: 500;
+    font-family: Roboto;
+    color: #000;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0 0 15px -8px;
+}
+
+.EquipmentArea .EquipmentForm form .form-group{
+    margin: 0 0 20px 0;
+    padding: 0 8px;
+}
+
+.EquipmentArea .EquipmentForm form .form-group label{
+    font-weight: 500;
+    font-family: Roboto;
+    color: #000;
+}
+
+.EquipmentArea .EquipmentForm form .form-group label.radio-inline{
+    width: 70px;
+}
+
+.EquipmentArea .EquipmentForm form .form-group .form-control{
+    border: 1px solid #ddd;
+    box-shadow: none;
+    border-radius: 4px;
+    height: 38px;
+    background: #fbfbfb;
+}
+
+.EquipmentArea .EquipmentForm form .form-group textarea.form-control{
+    height: auto;
+}
+
+.EquipmentArea .EquipmentForm form .form-group p{
+    font-weight: 500;
+    font-family: poppins;
+    color: #000;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.EquipmentArea .EquipmentForm form button{
+    border: 2px solid #000;
+    padding: 9px 40px;
+    background-color: transparent;
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.EquipmentArea .EquipmentForm form button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+header .navbar .navbar-nav li.dropdown .dropdown-menu li a {
+    background: transparent;
+}
+
+.ShopArea .DescriptionArea .DescriptionBody .woocommerce-tabs .panel h4 {
+    font-size: 20px;
+    color: #000;
+    margin: 0 0 15px;
+    font-weight: bold;
+}
+
+.ShopArea .DescriptionArea .DescriptionBody .woocommerce-tabs .panel h6 {
+    font-size: 20px;
+    color: #000;
+    margin: 0 0 15px;
+    font-weight: bold;
+}
+.woocommerce table.shop_attributes th {
+    width: 250px !important;
+}
+
+.ShopArea .DescriptionArea .DescriptionBody .woocommerce-tabs .panel p strong,
+.ShopArea .DescriptionArea .DescriptionBody .woocommerce-tabs .panel strong{
+    font-weight: 700 !important;
+}
+
+.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images {
+opacity: 1 !important;
+}

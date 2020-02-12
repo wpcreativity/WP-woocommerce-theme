@@ -1,0 +1,8 @@
+[20-Jun-2019 10:58:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/frcod085/development.frcoder.com/wordpress/BCITUSA/wp-content/themes/BTICUSA/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/frcod085/development.frcoder.com/wordpress/BCITUSA/wp-content/themes/BTICUSA/index.php on line 17
+[20-Jun-2019 13:14:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/frcod085/development.frcoder.com/wordpress/BCITUSA/wp-content/themes/BTICUSA/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/frcod085/development.frcoder.com/wordpress/BCITUSA/wp-content/themes/BTICUSA/index.php on line 17

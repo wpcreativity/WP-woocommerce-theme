@@ -1,0 +1,631 @@
+/*
+Theme Name: BTICUSA
+Theme URI: www.bticusa.com
+Author: Prashant Kansal
+Author URI: https://prashantkansal.com
+Description: Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: twentysixteen
+*/
+.ProductBox figure img {
+    margin: 0 !important;
+    width: 177px;
+}
+.woocommerce span.onsale {
+    min-height: 3.236em;
+    min-width: 5.236em;
+    padding: .202em;
+    font-size: 1em;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    line-height: 3.236;
+    top: 0px;
+    left: 16px;
+    margin: 0;
+    border-radius: 0 !important;
+    background-color: #e6b33e;
+    color: #fff;
+    font-size: .857em;
+    z-index: 9;
+}
+a.added_to_cart {display:none !important}
+.ProductBox figcaption h4{min-height: 50px;}
+.woocommerce div.product div.images,.woocommerce-page div.product div.images{
+    width: 100% !important;
+}
+header .navbar .Logo img {
+    width: 129px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type=text], 
+input[type=email], 
+input[type=url], 
+input[type=password], 
+input[type=number], 
+input[type=date], 
+input[type=tel], 
+select, 
+textarea {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(129,129,129,.25);
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 10px;
+    transition: border-color .5s;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #1B1919;
+    font-weight: 400;
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+
+.Breadcrumb{
+    box-shadow: inset 0px 0px 4px #ddd;
+    margin: 0 0 50px;
+    background-color: #f7f7f7;
+    padding: 50px 0px;
+}
+
+.Breadcrumb h1{
+    margin: 0 0 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000;
+}
+
+.Breadcrumb p{
+    margin: 0;
+    float: right;
+    font-size: 15px;
+    width: 250px;
+    text-align: right;
+}
+
+.Breadcrumb p span{
+    margin: 0 0 0 25px;
+    position: relative;
+    color: #000;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.Breadcrumb p span a{
+    color: #656565;
+}
+
+.Breadcrumb p span a:hover{
+    color:#000;
+}
+
+.Breadcrumb p span+span:before{
+    position: absolute;
+    top: -2px;
+    left: -18px;
+    text-align: center;
+    font-family: 'FontAwesome';
+    content: '\f101';
+    color: #000000;
+    font-size: 17px;
+}
+
+.RegisterForm{ display:none; }
+.RegisterContent{ display:none; }
+
+.LoginForm,
+.RegisterForm{
+    padding: 50px 40px 50px 0;
+    border-right: 1px solid #d3ced2;
+}
+
+.woocommerce .LoginForm form,
+.woocommerce .RegisterForm form{
+    border: none;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.LoginForm h2,
+.RegisterForm h2{
+    font-family: poppins;
+    margin: 0 0 15px 0px;
+    position: relative;
+    padding: 0 0 0 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.LoginForm h2:before,
+.RegisterForm h2:before{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    text-align: center;
+    font-family: 'FontAwesome';
+    content: '\f090';
+    color: #000000;
+    font-size: 26px;
+}
+
+.RegisterForm h2:before {
+    content: '\f08b'; 
+}
+
+
+.woocommerce .LoginForm form button,
+.woocommerce .RegisterForm form button{
+    width: 100%;
+    margin: 15px 0 10px 0 !important;
+    border: 2px solid #000;
+    background-color: transparent;
+    color: #000;
+    float: none !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 13px 0;
+    border-radius: 0;
+    letter-spacing: 1px;
+}
+
+.woocommerce .LoginForm form button:hover,
+.woocommerce .RegisterForm form button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.woocommerce .LoginForm form .woocommerce-LostPassword{}
+
+.woocommerce .LoginForm form .woocommerce-LostPassword label{
+    margin: 0;
+    font-size: 14px;
+    color: #000;
+}
+
+.woocommerce .LoginForm form .woocommerce-LostPassword label input{
+    margin: 0px 0 0 0;
+}
+
+.woocommerce .LoginForm form .woocommerce-LostPassword a{
+    float: right;
+    position: relative;
+    color: #000;
+    font-size: 14px;
+    padding: 0 0 0 27px;
+}
+
+.woocommerce .LoginForm form .woocommerce-LostPassword a:before{
+    position: absolute;
+    top: -1px;
+    left: 0;
+    text-align: center;
+    font-family: 'FontAwesome';
+    content: '\f1b3 ';
+    color: #000000;
+    font-size: 16px;
+}
+
+.LoginContent,
+.RegisterContent{
+    text-align: center;
+    padding: 100px 25px;
+}
+
+        .LoginContent h2,
+.RegisterContent h2{
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 27px;
+}
+
+.LoginContent p,
+.RegisterContent p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #000;
+    margin: 0 0 20px;
+}
+
+.LoginContent a,
+.RegisterContent a{
+    padding: 11px 32px;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.LoginContent a:hover,
+.RegisterContent a:hover{
+    background-color: #e6b33e;
+}
+
+.woocommerce-notices-wrapper .woocommerce-message{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: 2px solid #000;
+    padding: 18px 20px 18px 60px;
+    color: #000;
+    font-size: 14.5px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+}
+
+.woocommerce-notices-wrapper .woocommerce-message:before{
+    content:'';
+    background-color: #000;
+    width: 27px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.woocommerce-notices-wrapper .woocommerce-message:after{
+    content:'';
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(44deg);
+    -ms-transform: rotate(44deg);
+    transform: rotate(44deg);
+    position: absolute;
+    bottom: 22px;
+    left: 31px;
+}
+
+.woocommerce-notices-wrapper .woocommerce-message a{
+    border: 1px solid #000;
+    border-radius: 0;
+    background-color: transparent;
+    font-weight: 500;
+    margin: -9px 0 0;
+    font-size: 14px;
+    color: #000;
+    font-family: poppins;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+.woocommerce-notices-wrapper .woocommerce-message a:hover{
+    color:#fff;
+    background-color: #000;
+}
+
+.woocommerce-notices-wrapper .woocommerce-error{
+    border: 1px solid #b81c23;
+    background-color: #fff;
+    border-top: 2px solid #b81c23;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    padding: 18px 20px 18px 60px;
+}
+
+.woocommerce-notices-wrapper .woocommerce-error:before{
+    content:'';
+    background-color: #b81c23;
+    width: 27px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.woocommerce-notices-wrapper .woocommerce-error li{
+    position: relative;
+}
+
+.woocommerce-notices-wrapper .woocommerce-error li strong{
+    font-weight: 600;
+    color: #b81c23;
+}
+
+.woocommerce-notices-wrapper .woocommerce-error li:before,
+.woocommerce-notices-wrapper .woocommerce-error li:after{
+    content:'';
+    width: 2px;
+    height: 15px;
+    background-color: #fff;
+    position: absolute;
+    left: -27px;
+    margin: auto;
+    transform: rotate(45deg);
+}
+
+.woocommerce-notices-wrapper .woocommerce-error li:after{
+    transform: rotate(-45deg);
+}
+
+
+.CartEmptyArea{
+    text-align: center;
+}
+
+.CartEmptyArea img{
+    width: 130px;
+    margin: 0 0 15px;
+}
+
+.CartEmptyArea p.cart-empty{
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 0 15px;
+}
+
+.CartEmptyArea p.return-to-shop a{
+    background-color: #000;
+    border-radius: 0;
+    color: #fff;
+    font-weight: 400;
+    padding: 12px 30px;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.CartEmptyArea p.return-to-shop a:hover{
+    background-color: #e6b33e;
+    color: #fff;
+}
+
+
+.woocommerce-MyAccount-navigation{
+    background:black;}
+
+.woocommerce-MyAccount-navigation-link a{
+    color:#fff;font-weight:600;
+}
+
+.woocommerce-MyAccount-navigation-link{
+    border-bottom: 1px solid #757070;
+    padding: 13px 10px;
+}
+    
+.woocommerce-MyAccount-navigation-link:hover{
+    background: #e6b33e;
+}
+
+.woocommerce-Button{   
+    background: #f7f7f7 !important;
+    color: #000 !important;
+    font-weight: 600 !important}
+    
+.woocommerce-message{
+    color: #fff;
+    font-weight: 500}
+    
+.woocommerce-info::before {
+    color: #fff}
+    
+.woocommerce-MyAccount-content a{
+    color: #fff;
+    font-weight: 600;
+    border-bottom: 1px solid #f3f1f1;
+    padding-bottom: 1px;
+    font-size: 14px;
+}
+
+.woocommerce-MyAccount-content{
+    background: #565252;
+    padding: 10px;
+    color: #fff5f5;
+    font-weight: 500;
+}
+
+.woocommerce-info{
+    background:none;
+    
+}
+    
+.woocommerce-Message--info{
+    color:#fff;font-weight:500;
+    
+} 
+
+.woocommerce-Address{
+          background: #ffffff;
+    padding: 10px;
+    color: #040404
+}
+.woocommerce-MyAccount-content p{
+    color: #fff;
+    padding: 10px 0  
+}
+
+.woocommerce-Address-title h3{
+       font-size: 23px;
+    font-weight: 600}
+
+.edit-link{
+    background: black;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.edit-link a{color:#fff;}
+
+.woocommerce-form-row label{
+    color:#fff;
+    font-weight:500;
+    line-height:20px !important;
+}
+
+.required{color:#fff !important;}
+
+.woocommerce-Input--text{
+    color: #353434;
+    border: 1px solid black !important;
+}
+legend{
+    color:#fff;
+    font-family: none;
+    font-size: 22px;
+}
+
+.woocommerce-Input{
+    border: 1px solid black !important
+    
+}
+
+.woocommerce-message{
+    border-top-color: none !important;
+}
+
+.woocommerce-info {
+    border-top-color:none !important;
+}
+
+.woocommerce-info, .woocommerce-message {
+    border-top:none !important;
+}
+
+.single_add_to_cart_button{
+ background-color: #e6b33e !important;
+     opacity: .9 !important;
+     padding:13px !important;
+}
+
+.single_add_to_cart_button:hover{
+  opacity: .7 !important;   
+}
+
+.cart .button{
+    background: black !important;
+    padding: 13px !important;
+    color: #fff !important;}
+    
+.product-wrap-1 .reset_variations{
+    background: #337ab7;
+    padding: 8px;
+    font-weight: 600;
+    color:#fff;
+}
+
+.woocommerce-billing-fields .input-text{
+        background: #f5f5f5;
+}
+
+.woocommerce-billing-fields .select2-selection{
+    height:40px;
+    padding-top:6px;
+    background: #f5f5f5;
+}
+
+.woocommerce-additional-fields__field-wrapper #order_comments{
+     background: #f5f5f5;
+}
+
+
+.woocommerce-additional-fields__field-wrapper #order_comments:focus{
+    border: 1px solid #928a8a !important;
+}
+
+.woocommerce-billing-fields .input-text:focus{
+    border: 1px solid #928a8a !important;}
+
+
+.woocommerce-shipping-fields__field-wrapper .input-text {
+   background: #f5f5f5;  
+}
+
+.woocommerce-shipping-fields__field-wrapper .input-text:focus{
+    border: 1px solid #928a8a !important;
+    
+}
+
+
+.woocommerce-shipping-fields .select2-selection__rendered{
+       height:40px;
+       background: #f5f5f5;  
+}
+
+.cart_totals  h2{
+    text-align: center;
+    background: #000000ad;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 6px 0;
+    font-family: initial;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.wc-proceed-to-checkout{
+        text-align: center
+}
+
+.checkout-button{
+display: inline-block !important;
+    padding: 15px !important;
+    font-weight: 600 !important;
+        background-color: #000000ad !important;
+        font-size: 16px !important;
+}
+
+.checkout-button:hover{
+    color:#fff !important;
+    background:#e6b33e !important;
+}
+
+
+
+.woocommerce-checkout-payment .alt{
+  background-color: #000000ad !important;  
+}
+
+.woocommerce-checkout-payment .alt:hover{
+  background:#e6b33e !important;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

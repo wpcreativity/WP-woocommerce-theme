@@ -1,0 +1,20 @@
+[17-Jun-2019 06:49:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/frcod085/development.frcoder.com/wordpress/scbasales/wp-content/themes/scbasales/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/frcod085/development.frcoder.com/wordpress/scbasales/wp-content/themes/scbasales/index.php on line 17
+[20-Jun-2019 05:52:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/frcod085/development.frcoder.com/wordpress/scbasales/wp-content/themes/scbasales/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/frcod085/development.frcoder.com/wordpress/scbasales/wp-content/themes/scbasales/index.php on line 17
+[20-Jun-2019 06:05:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/frcod085/development.frcoder.com/wordpress/scbasales/wp-content/themes/scbasales/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/frcod085/development.frcoder.com/wordpress/scbasales/wp-content/themes/scbasales/index.php on line 17
+[20-Jun-2019 10:49:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/frcod085/development.frcoder.com/wordpress/scbasales/wp-content/themes/scbasales/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/frcod085/development.frcoder.com/wordpress/scbasales/wp-content/themes/scbasales/index.php on line 17
+[21-Jun-2019 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/frcod085/development.frcoder.com/wordpress/scbasales/wp-content/themes/scbasales/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/frcod085/development.frcoder.com/wordpress/scbasales/wp-content/themes/scbasales/index.php on line 17

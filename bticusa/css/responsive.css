@@ -1,0 +1,227 @@
+@charset "utf-8";
+/ CSS Document /
+
+@media screen and (max-width:600px) {
+header .UPHeader ul li:first-child {
+float: left;
+font-size: 8px;
+margin-top: 5px;
+}
+header .UPHeader ul li a {
+font-size: 8px
+}
+header .UPHeader ul li {
+margin: 0px 0px 0 3px;
+padding: 10px 0 0px
+}
+header .UPHeader ul {
+text-align: right;
+}
+.HeadCart {
+padding: 16px 0 15px 50px;
+position: relative;
+width: 170px;
+margin: 0px;
+cursor: pointer;
+}
+
+.HeadCart .fa{
+position: absolute;
+top: 2px;
+left: 6px;
+width: 35px;
+height: 35px;
+background-color: #e6b33e;
+text-align: center;
+color: #fff;
+line-height: 32px;
+}
+.PolicyArea .PolicyBox figure img {
+margin-top: 17px !important;
+}
+.PolicyArea .PolicyBox {
+padding: 20px 0 20px 70px !important
+}
+.Footer .NewsLetter form {
+width: 70% !important;
+}
+.Footer .NewsLetter p{
+font-size: 15px;
+color: #000;
+margin: 0 0 22px;
+line-height: 30px;
+}
+.Footer .FooterMiddle .Foots {
+margin: 30px 0 !important;
+}
+.Footer .FooterMiddle .Foots h3 {
+margin: 0 0 8px !important;
+}
+.FilterProduct {
+z-index: -1;
+position: relative;
+}
+.FilterArea {
+z-index: 1;
+position: relative;
+background: #f1f1f1;
+top: -15px;
+}
+header .navbar {
+margin-top: 26px;
+}
+.navbar-toggle {
+padding: 24px 0 0 10px
+}
+.ic2 .fa {
+width: 40px;
+height: 40px;
+line-height: 40px;
+float: none;
+}
+header .UPHeader ul li:first-child {
+font-size: 14px;
+margin-top: 0;
+display: block;
+float: none;
+text-align: center;
+}
+header .UPHeader ul li a {
+font-size: 13px
+}
+header .UPHeader ul li {
+margin: 0 5px;
+padding: 0 0 10px;
+}
+header .UPHeader ul {
+text-align: center;
+}
+.HeadCart {
+float: left;
+left: 0;
+padding: 0px 0 25px 50px;
+}
+.PolicyArea .PolicyBox figure img {
+margin-top: 17px;
+}
+.PolicyArea .PolicyBox {
+padding: 20px 0 20px 70px;
+}
+.Footer .NewsLetter form {
+width: 70%;
+}
+.Footer .FooterMiddle .Foots {
+margin: 30px 0;
+}
+.Footer .FooterMiddle .Foots h3 {
+margin: 0 0 8px;
+}
+.navbar-nav {
+margin: 7.5px -10px;
+}
+.FilterProduct {
+z-index: -1;
+position: relative;
+}
+.FilterArea {
+z-index: 1;
+position: relative;
+background: #f1f1f1;
+top: -15px;
+}
+header .navbar {
+margin-top: 10px;
+}
+.navbar-toggle {
+padding: 15px 0 5px;
+}
+.ic2 .fa {
+width: 40px;
+height: 40px;
+line-height: 40px;
+float: none;
+}
+
+header .navbar .Logo {
+display: block;
+width: 165px;
+position: absolute;
+top: 8px;
+left: 0;
+padding: 0 0 0 20px;
+right: auto;
+text-align: left;
+} 
+header .navbar .navbar-nav li{
+margin: 5px 0px 0px 0px;
+line-height: 0;
+padding: 0px 0px 0px 0px;
+}
+
+header .navbar .navbar-nav li a{
+padding: 0px 0px 0px 15px;
+line-height: 38px;
+color: #000;
+font-size: 15px;
+font-weight: 500;
+/ background-color: #f9f9f9; /
+font-family: Roboto;
+letter-spacing: 0.5px;
+margin: 0;
+}
+
+header .navbar .navbar-nav li+li:before{
+display:none;
+}
+
+.navbar-collapse.in{
+margin-top: 20px;
+background: #f3f3f3;
+}
+header .navbar .navbar-nav li{
+margin: 0;
+line-height: 0;
+}
+
+/************logiun page****************/
+.Breadcrumb{
+box-shadow: inset 0px 0px 4px #ddd;
+margin: 5px 0 0px;
+background-color: #f7f7f7;
+padding: 40px 0px;
+}
+
+.Breadcrumb p{
+display: block;
+margin: 0;
+}
+
+.Breadcrumb p span{
+margin: 0 0 0 25px;
+position: relative;
+color: #000;
+font-weight: 500;
+text-transform: capitalize;
+}
+
+.Breadcrumb h1{{
+display: block;
+margin: 12px 0px 0 30px;
+text-transform: uppercase;
+font-weight: 600;
+font-size: 25px;
+color: #000;
+}
+
+.woocommerce-form-row label{
+color: #000;
+font-weight: 500;
+line-height: 20px !important;
+}
+.LoginForm, .RegisterForm{
+width: 100%;
+padding: 40px 25px 40px 25px;
+border-right: 1px solid #d3ced2;
+background: #fdfdfd;
+}
+}
